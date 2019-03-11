@@ -26,11 +26,11 @@
   }
 
   .fa-grin-alt {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .fa-microphone {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .form-group {
@@ -141,6 +141,7 @@
   /***/
   .chat-title-and-contents {
     width: 100%;
+    overflow: hidden;
   }
 
   .sender-contents {
@@ -158,6 +159,17 @@
 
   .message {
     font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .message-of-sender {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
   }
 
   .chat-history .chat-box {
@@ -236,11 +248,11 @@
   }
 
   .fa-grin-alt {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .fa-microphone {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .form-group {
@@ -279,6 +291,7 @@
     height: 100vh;
     display: flex;
     width: 100%;
+    position: fixed;
   }
 
   i {
@@ -350,6 +363,7 @@
   /***/
   .chat-title-and-contents {
     width: 100%;
+    overflow: hidden;
   }
 
   .sender-contents {
@@ -367,6 +381,17 @@
 
   .message {
     font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .message-of-sender {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
   }
 
   .chat-history .chat-box {
@@ -445,11 +470,11 @@
   }
 
   .fa-grin-alt {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .fa-microphone {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .form-group {
@@ -558,6 +583,7 @@
   /***/
   .chat-title-and-contents {
     width: 100%;
+    overflow: hidden;
   }
 
   .sender-contents {
@@ -571,6 +597,17 @@
 
   .message {
     font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .message-of-sender {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
   }
 
   .chat-history .chat-box {
@@ -714,6 +751,7 @@
   /***/
   .chat-title-and-contents {
     width: 100%;
+    overflow: hidden;
   }
 
   .sender-contents {
@@ -726,7 +764,18 @@
   }
 
   .message {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 17px;
+  }
+
+  .message-of-sender {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
   }
 
   .chat-history .chat-box {
@@ -815,11 +864,11 @@ body {
   }
 
   .fa-grin-alt {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .fa-microphone {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .form-group {
@@ -941,6 +990,7 @@ body {
   /***/
   .chat-title-and-contents {
     width: 100%;
+    overflow: hidden;
   }
 
   .sender-contents {
@@ -954,6 +1004,17 @@ body {
 
   .message {
     font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .message-of-sender {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
   }
 
   .chat-history {
