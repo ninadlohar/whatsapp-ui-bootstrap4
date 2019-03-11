@@ -1,4 +1,9 @@
 @media (min-width: 1301px) and (max-width: 1440px) {
+  .comment-box {
+    width: 100%;
+    display: flex;
+  }
+
   .arena {
     height: 100vh;
     display: flex;
@@ -132,6 +137,11 @@
   }
 }
 @media (min-width: 901px) and (max-width: 1300px) {
+  .comment-box {
+    width: 100%;
+    display: flex;
+  }
+
   .arena {
     height: 100vh;
     display: flex;
@@ -265,6 +275,11 @@
   }
 }
 @media (min-width: 769px) and (max-width: 900px) {
+  .comment-box {
+    width: 100%;
+    display: flex;
+  }
+
   .arena {
     height: 100vh;
     display: flex;
