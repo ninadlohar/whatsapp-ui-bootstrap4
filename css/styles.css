@@ -115,7 +115,8 @@
     align-items: center;
   }
 
-  .l2, .l3 {
+  .l2,
+.l3 {
     margin-left: 8px;
   }
 
@@ -144,6 +145,15 @@
 
   .chat-history .chat-box:active {
     background-color: #e9ebeb;
+  }
+
+  .chat-history .chat-box:hover {
+    background-color: #f4f5f5;
+  }
+
+  .chat-section {
+    height: 100%;
+    background: url("../images/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
   }
 
   .chat-box {
@@ -298,7 +308,8 @@
     align-items: center;
   }
 
-  .l2, .l3 {
+  .l2,
+.l3 {
     margin-left: 8px;
   }
 
@@ -329,12 +340,21 @@
     background-color: #e9ebeb;
   }
 
+  .chat-history .chat-box:hover {
+    background-color: #f4f5f5;
+  }
+
   .chat-box {
     display: flex;
     width: 100%;
     align-items: center;
     padding-right: 15px;
     color: #262626;
+  }
+
+  .chat-section {
+    height: 100%;
+    background: url("../images/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
   }
 
   .chat-box-sender-image {
@@ -418,6 +438,7 @@
   .arena {
     height: 100vh;
     display: flex;
+    overflow: hidden;
   }
 
   i {
@@ -481,7 +502,8 @@
     align-items: center;
   }
 
-  .l2, .l3 {
+  .l2,
+.l3 {
     margin-left: 8px;
   }
 
@@ -510,6 +532,15 @@
 
   .chat-history .chat-box:active {
     background-color: #e9ebeb;
+  }
+
+  .chat-history .chat-box:hover {
+    background-color: #f4f5f5;
+  }
+
+  .chat-section {
+    height: 100%;
+    background: url("../images/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
   }
 
   .chat-box {
@@ -547,6 +578,15 @@
     color: #fff;
   }
 }
+@media (min-with: 200px) and (max-width: 768px) {
+  .x {
+    display: none;
+  }
+}
+body {
+  background-color: #d5dbd7;
+}
+
 @media (min-width: 1441px) and (max-width: 5000px) {
   .comment-box {
     overflow: hidden;
@@ -574,6 +614,7 @@
   }
 
   .chat-section {
+    height: 100%;
     background: url("../images/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
   }
 
@@ -679,7 +720,8 @@
     align-items: center;
   }
 
-  .l2, .l3 {
+  .l2,
+.l3 {
     margin-left: 8px;
   }
 
@@ -708,6 +750,10 @@
 
   .chat-history .chat-box:active {
     background-color: #e9ebeb;
+  }
+
+  .chat-history .chat-box:hover {
+    background-color: #f4f5f5;
   }
 
   .chat-box {
