@@ -2,6 +2,51 @@
   .comment-box {
     width: 100%;
     display: flex;
+    min-height: 62px;
+    padding: 5px 10px;
+    border-top: 1px solid grey;
+    background-color: #efefef;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .fa-grin-alt {
+    font-size: 30px;
+  }
+
+  .fa-microphone {
+    font-size: 30px;
+  }
+
+  .form-group {
+    padding-top: 7px;
+  }
+
+  .chat-section {
+    background: url("../images/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  }
+
+  .microphone {
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .smiley-emoji {
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .write-comment-box .form-group .form-control {
+    border-radius: 21px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
 
   .arena {
@@ -140,6 +185,51 @@
   .comment-box {
     width: 100%;
     display: flex;
+    min-height: 62px;
+    padding: 5px 10px;
+    border-top: 1px solid grey;
+    background-color: #efefef;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .fa-grin-alt {
+    font-size: 30px;
+  }
+
+  .fa-microphone {
+    font-size: 30px;
+  }
+
+  .form-group {
+    padding-top: 7px;
+  }
+
+  .chat-section {
+    background: url("../images/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  }
+
+  .microphone {
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .smiley-emoji {
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .write-comment-box .form-group .form-control {
+    border-radius: 21px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
 
   .arena {
@@ -277,6 +367,51 @@
 @media (min-width: 769px) and (max-width: 900px) {
   .comment-box {
     width: 100%;
+    display: flex;
+    min-height: 62px;
+    padding: 5px 10px;
+    border-top: 1px solid grey;
+    background-color: #efefef;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .fa-grin-alt {
+    font-size: 30px;
+  }
+
+  .fa-microphone {
+    font-size: 30px;
+  }
+
+  .form-group {
+    padding-top: 7px;
+  }
+
+  .chat-section {
+    background: url("../images/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  }
+
+  .microphone {
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .smiley-emoji {
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .write-comment-box .form-group .form-control {
+    border-radius: 21px;
+    justify-content: center;
+    align-items: center;
     display: flex;
   }
 
