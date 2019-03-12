@@ -1,0 +1,227 @@
+@import "./colors.scss";
+
+@media (min-width: 901px) and (max-width: 1300px) {
+  /***/
+  .x {
+    display: contents;
+  }
+  /***/
+  .sl1 {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26),
+      0 2px 10px 0 rgba(0, 0, 0, 0.16);
+    padding: 9px 0px;
+    display: none;
+    width: 150px;
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 170px;
+    z-index: 2;
+  }
+  .left-side-ellipsis-box-padding {
+    padding-bottom: 4px;
+    padding-left: 20px;
+  }
+  .sl2 {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26),
+      0 2px 10px 0 rgba(0, 0, 0, 0.16);
+    padding: 9px 0px;
+    display: none;
+    width: 150px;
+    position: absolute;
+    display: block;
+    top: 40px;
+    right: 0;
+    margin-right: 10%;
+    z-index: 2;
+  }
+  .right-side-ellipsis-box-padding {
+    padding-bottom: 4px;
+    padding-left: 20px;
+  }
+  /*** scroll functionality ***/
+  .chat-history {
+    overflow-y: scroll;
+    height: 85%;
+    width: 100%;
+    position: absolute;
+  }
+  /*** scroll functionality ***/
+  .comment-box {
+    width: 100%;
+    display: flex;
+    min-height: 62px;
+    padding: 5px 10px;
+    border-top: 1px solid grey;
+    background-color: $comment-box-color;
+    position: absolute;
+    bottom: 0;
+  }
+  .fa-grin-alt {
+    font-size: 25px;
+  }
+  .fa-microphone {
+    font-size: 22px;
+  }
+  .form-group {
+    padding-top: 7px;
+  }
+  .chat-section {
+    height: calc(100% - 110px);
+    background: url("../images/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  }
+  .microphone {
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .smiley-emoji {
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .write-comment-box .form-group .form-control {
+    border-radius: 21px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    // height: 100%;
+  }
+  .arena {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    position: fixed;
+  }
+  i {
+    color: #82898c;
+  }
+  .group-or-senders-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .phone-numbers {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: $phone-numbers-color;
+    font-size: 13px;
+  }
+
+  .header {
+    background-color: $header-color;
+  }
+  .header-logged-in-user-applied-class {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .logged-in-user-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .sender-header-contents {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .search-box {
+    height: 50px;
+    background-color: $search-box-color;
+  }
+  .control-input-width {
+    padding: 6px;
+  }
+  .search-box .control-input-width .form-control {
+    border-radius: 16px;
+  }
+  .logo-seciton-flex {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .l2,
+  .l3 {
+    margin-left: 8px;
+  }
+  /***/
+  .chat-title-and-contents {
+    width: 100%;
+    overflow: hidden;
+  }
+  .sender-contents {
+    font-size: 13px;
+    color: $sender-text-content-color;
+    // display: flex;
+  }
+  .scroll-for-left-side-messages {
+    width: 100%;
+  }
+  .messages-pending {
+    text-align: right;
+  }
+  .message {
+    font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .message-of-sender {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: $sender-of-message;
+    font-size: 14px;
+  }
+  .chat-history .chat-box {
+    background-color: $chat-without-hover-color;
+    height: 72px;
+  }
+  .chat-history .chat-box:active {
+    background-color: $chat-active-color;
+  }
+  .chat-history .chat-box:hover {
+    background-color: $chat-box-hover;
+  }
+  .chat-box {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-right: 15px;
+    color: $chat-box-text-color;
+  }
+  .chat-box-sender-image {
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+  }
+  .image-section {
+    padding-left: 13px;
+    padding-right: 15px;
+  }
+  .time {
+    font-size: 12px;
+    text-align: right;
+  }
+  .badge-pill {
+    border-radius: 50%;
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+  }
+  .badge-primary {
+    background-color: #09d261;
+    color: #fff;
+  }
+}
